@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Page Title</title>
+
+  <!-- Bootstrap CSS (v5.3 is current as of 2025) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous">
+
+</head>
+<style>
+body {
+height: 300vh;
+background-image: url("https://i.ibb.co/k2wKNy7Y/Abstract-Background-Minimalist-Pastel-Color-Soft-Vector-Wallpapers-Abstract-Background-Background.jpg"),
+url("https://i.ibb.co/Pz6NYByw/Screenshot-2025-12-11-125121.jpg");
+background-size: 100% 100vh, 100% 100vh;
+background-position: center top, center 100vh;
+background-repeat: no-repeat;
+color: #333;
+}
+.font-family {
+font-family: "BBH Hegarty", sans serif;
+font-size: 90px;
+}
+h1 {
+text-align: center;
+}
+p {
+text-align: center;
+font-size: 30px;
+}
+#welcome-section {
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+#projects {
+min-height: 100vh;
+padding: 50px 0;
+text-align: center;
+}
+#navbar {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: white;
+box-shadow: 0 2px 5px rgba(16, 16, 16, 16, 0.1);
+z-index: 1000;
+padding: 10px 0;
+}
+.nav-list {
+display: flex;
+justify-content: flex-end;
+list-style: none;
+margin: 0;
+padding: 15px 50px;
+}
+#contact {
+height: 150vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.contact-links { 
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 2rem;
+}
+@media (max-width: 768px) {
+.font-family {
+font-size: 50px; }
+p {
+font-size: 20px;
+padding: 0 20px; }
+.nav-list {
+padding: 15px 20px;
+justify-content: center; }
+.projects-grid {
+grid-template-columns: 1fr; }
+}
+</style>
+<body>
+<nav id="navbar">
+<ul class="nav-list">
+<li><a href="#welcome-section">About  </a></li>
+<li><a href="#projects">__Work</a></li>
+<li><a href="#contact-links">__Contact</a></li>
+</ul>
+</nav>
+<div id="welcome-section">
+<h1 class="font-family text-center">Hey, I'm Chana Rochel </h1>
+<p> A Web Developer specializing in completing my FreeCodeCamp challenges </p>
+<a href="https://www.freecodecamp.org/" target="blank">
+<img src="https://i.ibb.co/V0kdRJpr/fcc-secondary-small.png" border="0">
+</a>
+</div>
+
+
+<div id="projects" class="projects-grid">
+<h2 class="text-center">Portfolio Projects</h2> 
+<a href="https://imthemostamazingperson-arch.github.io/Tribute-Page/" class="project-tile" target="blank">
+<img src="https://i.ibb.co/Cpx0Vc9Y/Screenshot-2025-12-16-114410.png" alt="Screenshot-2025-12-16-114410" border="0">
+<p class="Project-title">Tribute Page</p>
+</a>
+</div>
+
+
+<div id="contact">
+<div class="contact-header">
+<h2> Let's collab... </h2>
+</div>
+<div id="contact-links" class="contact-links">
+<a href="https://call.whatsapp.com/voice/RNwkSWFYFNulVgJTAGzy1c" id="profile-link" target="blank" class="btn btn-success mx-2>WhatsApp</a>
+<a href="www.linkedin.com/in/chana-rachel-lebowitz-5ba1bb398" target="blank" class="btn btn-info mx-2">Linked In</a>
+<a href="https://github.com/imthemostamazingperson-arch" target="blank" class="btn btn-dark mx-2">Github</a>
+</div>
+</div>
+</body>
